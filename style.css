@@ -1,9 +1,138 @@
-*{
-margin:0%;
-padding:0%;
-box-sizing: border-box;
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
-html,body{
-width: 100%;
-height: 100%;
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  width: 100%;
+  height: 680%;
+  background-color: #ffffff;
+ 
+  padding: 3px;
+  display: grid;
+  row-gap: 5px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 90px 150px 500px 250px 550px 150px 400px 400px 600px 500px 500px 400px;
+  grid-template-areas:
+    "nav nav nav nav"
+    "about about about about"
+    "picc picc picc picc"
+    "section1 section1 section1 section1"
+    "section2 section2 section2 section2"
+    "section3 section3 section3 section3"
+    "pic1 pic2 pic3 pic4"
+    "pic5 pic6 pic7 pic8"
+    "info1 info1 info1 info1"
+    "info2 info2 info2 info2"
+    "map map map map"
+    "foot foot foot foot";
+}
+#nav {
+  grid-area: nav;
+  background-color: #ffffff;
+  border: 2px solid black;
+}
+
+#about {
+  grid-area: about;
+  background-color: #b7e0e653;
+  
+}
+#picc{
+    grid-area: picc;
+ background-color: #b7e0e653;
+  border: 2px solid black;
+}
+
+#section1{
+    grid-area: section1;
+ background-color: #ffffff;
+}
+
+#section2{
+    grid-area: section2;
+background-color: #b7e0e653;
+
+}
+
+#section3{
+    grid-area: section3;
+ background-color: #ffffff;
+
+}
+
+#pic1{
+    grid-area: pic1;
+    border: 2px solid black;
+  background-color: #b7e0e653;
+  border-radius: 10px;
+}
+
+#pic2{
+    grid-area: pic2;
+  background-color: #b7e0e653;
+  border: 2px solid black;
+}
+#pic3{
+    grid-area: pic3;
+  border: 2px solid black;
+    background-color: #b7e0e653;
+  border-radius: 10px;
+}
+#pic4{
+    grid-area: pic4;
+    background-color: #b7e0e653;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+#pic5{
+    grid-area: pic5;
+   background-color: #b7e0e653;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+#pic6{
+    grid-area: pic6;
+  background-color: #b7e0e653;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+#pic7{
+    grid-area: pic7;
+    background-color: #b7e0e653;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+#pic8{
+    grid-area: pic8;
+  background-color: #b7e0e653;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+#info1{
+    grid-area: info1;
+    background-color: #b7e0e653;
+}
+#info2{
+    grid-area: info2;
+
+  background-color: #ffffff;
+}
+#map{
+    grid-area: map;
+
+  background-color: #ffffff;
+}
+
+footer{
+    grid-area: foot;
+  background-color: #191919d8;
+border-radius: 15px;
 }
