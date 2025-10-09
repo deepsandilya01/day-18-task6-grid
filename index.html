@@ -1,18 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NAVIS</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <main>
         <div id="nav">
-
+            <span id="navv">
+                <h2>Navis</h2>
+                <div id="center">
+                    <a class="link" href="#">Home</a>
+                    <a class="link" href="#">Services</a>
+                    <a class="link" href="#">About</a>
+                    <select onchange="window.location.href=this.value">
+                        <option value="#">More Links</option>
+                        <option value="https://google.com">Google</option>
+                        <option value="https://youtube.com">YouTube</option>
+                        <option value="https://github.com">GitHub</option>
+                    </select>
+                </div>
+                <div id="button">
+                    <button id="button1">Sign up</button>
+                    <button id="button2">Get started</button>
+                </div>
+            </span>
         </div>
         <div id="about">
-
+            <span>
+                <h2>About our firm</h2>
+                <p>At our firm, we pride ourselves on delivering tailored solutions that empower businesses to thrive.
+                    With years of experience across various industries, our dedicated team is committed to driving growth and
+                    oporational excellence</p>
+            </span>
+            <div id="button">
+                <button id="button1">Sign up</button>
+                <button id="button2">Get started</button>
+            </div>
         </div>
         <picture id="picc">
 
@@ -24,7 +52,7 @@
 
         </section>
         <section id="section3">
-            
+
         </section>
         <picture id="pic1">
 
@@ -64,4 +92,5 @@
         </footer>
     </main>
 </body>
+
 </html>

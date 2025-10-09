@@ -2,6 +2,7 @@
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 html,
 body {
@@ -13,7 +14,6 @@ main {
   width: 100%;
   height: 680%;
   background-color: #ffffff;
- 
   padding: 3px;
   display: grid;
   row-gap: 5px;
@@ -34,105 +34,181 @@ main {
     "foot foot foot foot";
 }
 #nav {
+  font-weight: bold;
   grid-area: nav;
   background-color: #ffffff;
-  border: 2px solid black;
+  color: black;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #about {
   grid-area: about;
-  background-color: #b7e0e653;
-  
+  background-color: #b7e0e634;
 }
-#picc{
-    grid-area: picc;
- background-color: #b7e0e653;
-  border: 2px solid black;
-}
-
-#section1{
-    grid-area: section1;
- background-color: #ffffff;
+#picc {
+  grid-area: picc;
+  background-color: #b7e0e634;
+  margin-top: -5px;
 }
 
-#section2{
-    grid-area: section2;
-background-color: #b7e0e653;
-
-}
-
-#section3{
-    grid-area: section3;
- background-color: #ffffff;
-
-}
-
-#pic1{
-    grid-area: pic1;
-    border: 2px solid black;
-  background-color: #b7e0e653;
-  border-radius: 10px;
-}
-
-#pic2{
-    grid-area: pic2;
-  background-color: #b7e0e653;
-  border: 2px solid black;
-}
-#pic3{
-    grid-area: pic3;
-  border: 2px solid black;
-    background-color: #b7e0e653;
-  border-radius: 10px;
-}
-#pic4{
-    grid-area: pic4;
-    background-color: #b7e0e653;
-  border-radius: 10px;
-  border: 2px solid black;
-}
-#pic5{
-    grid-area: pic5;
-   background-color: #b7e0e653;
-  border-radius: 10px;
-  border: 2px solid black;
-}
-#pic6{
-    grid-area: pic6;
-  background-color: #b7e0e653;
-  border-radius: 10px;
-  border: 2px solid black;
-}
-#pic7{
-    grid-area: pic7;
-    background-color: #b7e0e653;
-  border-radius: 10px;
-  border: 2px solid black;
-}
-#pic8{
-    grid-area: pic8;
-  background-color: #b7e0e653;
-  border-radius: 10px;
-  border: 2px solid black;
-}
-
-#info1{
-    grid-area: info1;
-    background-color: #b7e0e653;
-}
-#info2{
-    grid-area: info2;
-
-  background-color: #ffffff;
-}
-#map{
-    grid-area: map;
-
+#section1 {
+  grid-area: section1;
   background-color: #ffffff;
 }
 
-footer{
-    grid-area: foot;
+#section2 {
+  grid-area: section2;
+  background-color: #b7e0e653;
+}
+
+#section3 {
+  grid-area: section3;
+  background-color: #ffffff;
+}
+
+#pic1 {
+  grid-area: pic1;
+  border: 2px solid black;
+  background-color: #b7e0e653;
+  border-radius: 10px;
+}
+
+#pic2 {
+  grid-area: pic2;
+  background-color: #b7e0e653;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+#pic3 {
+  grid-area: pic3;
+  border: 2px solid black;
+  background-color: #b7e0e653;
+  border-radius: 10px;
+}
+#pic4 {
+  grid-area: pic4;
+  background-color: #b7e0e653;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+#pic5 {
+  grid-area: pic5;
+  background-color: #b7e0e653;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+#pic6 {
+  grid-area: pic6;
+  background-color: #b7e0e653;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+#pic7 {
+  grid-area: pic7;
+  background-color: #b7e0e653;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+#pic8 {
+  grid-area: pic8;
+  background-color: #b7e0e653;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+#info1 {
+  grid-area: info1;
+  background-color: #b7e0e653;
+}
+#info2 {
+  grid-area: info2;
+
+  background-color: #ffffff;
+}
+#map {
+  grid-area: map;
+
+  background-color: #ffffff;
+}
+
+footer {
+  grid-area: foot;
   background-color: #191919d8;
-border-radius: 15px;
+  border-radius: 15px;
+}
+
+#navv > h2 {
+  padding-top: 5px;
+}
+
+#nav > span {
+  display: flex;
+  gap: 350px;
+}
+
+#nav #center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+#center > a {
+  text-decoration: none;
+  color: #000;
+}
+
+#center > select {
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#nav #button {
+  display: flex;
+  gap: 20px;
+}
+
+#button > button {
+  padding: 10px 20px 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+#button1 {
+  border: 2px solid blue;
+  background-color: transparent;
+  color: blue;
+}
+
+#button2 {
+  border: 2px solid blue;
+  color: white;
+  background-color: blue;
+}
+
+#button1:hover{
+background-color: blue;
+color: white;
+}
+
+#button2:hover {
+  border: 2px solid blue;
+  background-color: transparent;
+  color: blue;
+}
+
+#about>span{
+  padding: 20px 50px 20px 50px;
+  display: flex;
+  gap: 60px;
+}
+#about #button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
