@@ -52,11 +52,18 @@ main {
   grid-area: picc;
   background-color: #b7e0e634;
   margin-top: -5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30PX;
 }
 
 #section1 {
   grid-area: section1;
   background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 #section2 {
@@ -190,9 +197,9 @@ footer {
   background-color: blue;
 }
 
-#button1:hover{
-background-color: blue;
-color: white;
+#button1:hover {
+  background-color: blue;
+  color: white;
 }
 
 #button2:hover {
@@ -201,14 +208,60 @@ color: white;
   color: blue;
 }
 
-#about>span{
+#about > span {
   padding: 20px 50px 20px 50px;
   display: flex;
   gap: 60px;
 }
-#about #button{
+#about #buttonn {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 20px;
+}
+
+#buttonn > button {
+  padding: 20px 40px 20px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+#button3 {
+  border: 2px solid blue;
+  background-color: transparent;
+  color: blue;
+}
+
+#button4 {
+  border: 2px solid blue;
+  color: white;
+  background-color: blue;
+}
+
+#button3:hover {
+  background-color: blue;
+  color: white;
+}
+
+#button4:hover {
+  border: 2px solid blue;
+  background-color: transparent;
+  color: blue;
+}
+
+
+#picc > img {
+  height: 400px;
+  width: 95%;
+  object-fit: cover;
+  border: 2PX solid black;
+  border-radius: 30PX;
+}
+
+#section1 > span  h2{
+  font-size: 90px;
+}
+
+#section1 > span  p{
+  font-size: 20px;
 }
